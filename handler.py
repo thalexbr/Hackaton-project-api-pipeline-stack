@@ -11,10 +11,11 @@ codepipeline = boto3.client('codepipeline')
 def main(event, context):
     print(str(event))
     print(str(context))
+    pipeline_name =  event['pathParameters']['pipeline'];
     
     
     responsePipeline = codepipeline.start_pipeline_execution(
-        name='hackathon-CD-app-stack',
+        name=pipeline_name,
     )
     
     response = {
