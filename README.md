@@ -1,4 +1,5 @@
 # Hackathon Project - API para ativação dos pipelines
+
 > This is a basic project with student purposes. So, a set of services is implemented with intention for provide some  endpoints for streaming movies based on Netflix.
 
 <!-- TODO: o que ele faz? breve descrição... -->
@@ -11,9 +12,8 @@ Faça um clone do repositório
 git clone https://github.com/thalexbr/Hackaton-project-api-pipeline-stack
 ```
 
-# IMPORTANTE
-
-Você vai precisar ter o framework Serverless para executar os comandos a seguir:
+> IMPORTANTE
+> Você vai precisar ter o framework Serverless para executar os comandos a seguir:
 
 1) Ajuste a linha 13 do arquivo serverless.yml para refletir o conjunto de pipelines criados
 
