@@ -1,6 +1,6 @@
 # Hackathon Project - API para ativação dos pipelines
 
-> This is a basic project with student purposes. So, a set of services is implemented with intention for provide some  endpoints for streaming movies based on Netflix.
+> Parte do trabalho final da disciplina **INFRASTRUCTURE AS CODE (IAC) - HACKATHON EXPERIENCE LAB**
 
 <!-- TODO: o que ele faz? breve descrição... -->
 
@@ -29,7 +29,7 @@ sls deploy --stage shared
 3) Utilize a URL gerada pela stack para ativar o pipeline desejado
 
 ```
-curl -X GET <URL_DO_STACK>/activate/<NOME_DO_PIPELINE>
+curl -X GET https://<URL_DO_STACK>/activate/<NOME_DO_PIPELINE>
 ```
 
 4) Acompanhe a execução do pipeline pela console do AWS
