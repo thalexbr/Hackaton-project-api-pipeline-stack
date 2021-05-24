@@ -12,8 +12,7 @@ Faça um clone do repositório
 git clone https://github.com/thalexbr/Hackaton-project-api-pipeline-stack
 ```
 
-> IMPORTANTE
-> Você vai precisar ter o framework Serverless para executar os comandos a seguir:
+> IMPORTANTE: Você vai precisar ter o framework Serverless para executar os comandos a seguir:
 
 1) Ajuste a linha 13 do arquivo serverless.yml para refletir o conjunto de pipelines criados
 
@@ -35,7 +34,7 @@ curl -X GET <URL_DO_STACK>/activate/<NOME_DO_PIPELINE>
 
 4) Acompanhe a execução do pipeline pela console do AWS
 
-Nota: Não esqueça de remover os recursos após os testes
+> Nota: Não esqueça de remover os recursos após os testes
 
 ## Meta
 
